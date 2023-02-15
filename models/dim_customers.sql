@@ -33,11 +33,8 @@ customer_orders as (
 
     group by 1
 
-<<<<<<< HEAD
-)
-=======
 ),
->>>>>>> 6a73c67341ba42d63d7be2c03f6107ca0f619cc4
+
 
 final as (
 
@@ -51,7 +48,7 @@ final as (
 
     from customers
 
-    left join customers_orders using (customer_id)
+    left join customer_orders using (customer_id)
 )
 
 select * from final
