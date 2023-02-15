@@ -33,7 +33,11 @@ customer_orders as (
 
     group by 1
 
+<<<<<<< HEAD
 )
+=======
+),
+>>>>>>> 6a73c67341ba42d63d7be2c03f6107ca0f619cc4
 
 final as (
 
